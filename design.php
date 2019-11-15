@@ -1,10 +1,6 @@
 <?php $basename=basename($_SERVER["SCRIPT_FILENAME"], '.php'); ?>
 
 <?php include('./header.php') ?>
-<?php require_once ('./Mobile_Detect.php');
-$detect = new Mobile_Detect;
- ?>
-
 
 <section class="design-banner">
     <h1>We speak the right words <br> to the woods to bring out <br> your desired finishing

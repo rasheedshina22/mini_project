@@ -1,9 +1,6 @@
 <?php $basename=basename($_SERVER["SCRIPT_FILENAME"], '.php'); ?>
 
-<?php
-include('./header.php')
-
- ?>
+<?php include('./header.php') ?>
 
 <section class="connect-first-section">
     <h1>Connect with us </h1>

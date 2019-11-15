@@ -1,5 +1,15 @@
  <?php include('./header.php') ?>
- <section class="home-chairSection">
+ <section id="indexFirstSection">
+     <div>
+         <h1>Creativity-driven</h1>
+         <h1>Excellence-driven</h1>
+         <p>We project a comtemporary approach <br> in order to deliver a
+             consistent ambience <br> of excellence in our craft. <br> This helps
+             us to resonate a significantly <br> high level of client satisfaction</p>
+     </div>
+
+ </section>
+ <!-- <section class="home-chairSection">
      <div class="home-chair">
          <img src="images/chair.png" alt="chair" class="off" />
          <img src="images/small-arbitat-chair.png" alt="" class="on">
@@ -11,7 +21,7 @@
              bring it to life.
          </p>
      </div>
- </section>
+ </section> -->
 
  <section class="home-image-gallery">
 
@@ -66,7 +76,7 @@
      </div>
      <hr class="first-line">
 
-     <p class="who-we-are">At Arbitat & Workwork, we are a team of 3D artists that are commited to ensuring that your
+     <p class="who-we-are">We are a team of 3D artists that are commited to ensuring that your
          design imaginations are brought to reality </p>
      <hr class="first-line">
      <div class="work-support-design-row">
@@ -140,8 +150,11 @@
  </section>
 
  <div class="home-bed-section-text">
-     <p>We project a comtemporary approach in order to deliver a <br> consistent ambience of excellence in our
-         craft. This helps <br> us to resonate a significantly high level of client satisfaction</p>
+     <h2>Do You have a custom Idea?</h2>
+     <p class="off">
+         If you have a vision, style or design preference we can <br> certainly
+         bring it to life.
+     </p>
  </div>
  <section class="home-funnel-section">
      <img src="images/lamp.jpg" alt="large funnel picture" class="big-funnel">
