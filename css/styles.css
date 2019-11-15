@@ -1,0 +1,1536 @@
+@font-face {
+  font-family: "raleway";
+  src: url("../fonts/Raleway-ExtraLight.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ralewaymedium";
+  src: url("../fonts/Raleway-Medium.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "reey";
+  src: url("../fonts/Reey-Regular.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ralewaybold";
+  src: url("../fonts/Raleway-Bold.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "scratchlet";
+  src: url("../fonts/Scratch\ LET\ Plain.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "gudea";
+  src: url("../fonts/gudea-bold_[allfont.net].ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "segoe";
+  src: url("../fonts/segoeuil.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "roboto-regular";
+  src: url("../fonts/Roboto-Regular.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "nobile-bold";
+  src: url("../fonts/Nobile-Bold.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "nobile-medium";
+  src: url("../fonts/Nobile-Medium.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "amble-bold";
+  src: url("../fonts/Amble-Bold.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "amble-regular";
+  src: url("../fonts/Amble-Regular.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #000;
+  line-height: 1.5;
+  overflow-x: hidden;
+  font-family: segoe;
+}
+
+.arbitat-logo {
+  vertical-align: middle;
+  border-style: none;
+  margin-top: 28px;
+}
+
+.row-1 {
+  padding-top: 20px;
+  padding-left: 50px;
+}
+
+.row-2 {
+  padding-top: 20px;
+  padding-left: 50px;
+}
+
+.phoneNumber {
+  position: absolute;
+  font-size: 1.3rem;
+  top: 24px;
+  right: 50px;
+  float: right;
+  color: #061e26;
+}
+
+.phoneNumber img {
+  width: 40px;
+  height: 40px;
+}
+
+/* navbar styles   */
+
+.navigation-bar {
+  position: relative;
+  top: 90px;
+  background: #061e26;
+  color: #fff;
+  text-align: center;
+  height: 140px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+}
+
+.nav-brand-img {
+  margin-top: -26px;
+}
+
+/* 
+.nav-brand-img img {
+    width: 180px;
+    height: 100px;
+} */
+
+.navbar-links {
+  display: block;
+  padding-top: 20px;
+  flex-shrink: 1;
+}
+
+.navbar-links li {
+  display: inline-block;
+}
+
+.navbar-links a {
+  padding: 16px;
+  color: #fff;
+  font-family: ralewaybold;
+  text-decoration: none;
+  font-size: 18px;
+  flex-shrink: 1;
+}
+
+.headerSocial {
+  margin-right: 30px;
+}
+
+.navbar-social-icons {
+  margin-right: -10px;
+  list-style: none;
+  margin-top: 14px;
+  flex-shrink: 1;
+}
+
+.navbar-social-icons li {
+  display: inline-block;
+}
+
+.navbar-social-icons a {
+  text-decoration: none;
+  color: #fff;
+  padding-left: 5px;
+  flex-shrink: 1;
+}
+
+.navbar-social-icons a img {
+  width: 40px;
+  height: 40px;
+}
+
+.who-we-are {
+  text-align: center;
+  font-size: 20px;
+  padding-top: 8px;
+  font-family: roboto-regular;
+}
+
+/* end navbar styles */
+
+/* index page styles */
+
+.home-chairSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 120px;
+}
+
+.home-chair img {
+  margin-top: 100px;
+  margin-left: -100px;
+}
+
+.home-custom-idea h2 {
+  margin-top: 1px;
+  font-family: segoe;
+  color: #061e26;
+  font-size: 47px;
+}
+
+.home-custom-idea p {
+  font-family: segoe;
+  color: #061e26;
+  font-size: 1.5rem;
+}
+
+.home-image-gallery {
+  background: #f6f6f6;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  height: 879px;
+}
+
+.first-line {
+  width: 97%;
+  border: -0.5px solid #ddd;
+  margin-top: 20px;
+  margin-left: 18px;
+}
+
+.second-line {
+  margin-top: 25px;
+  width: 97%;
+  border: -0.5px solid #ddd;
+  margin-left: 18px;
+}
+
+.work-support-design-row {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.work-support-design-row span {
+  font-family: ralewaybold;
+  font-size: 20px;
+}
+
+.work-done {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.1rem;
+}
+
+.work-image {
+  margin-top: -11px;
+}
+
+.what-we-support {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.our-designs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.connect-with-us {
+  border-top: 1px solid #ddd;
+  padding: 20px;
+  margin-left: -74px;
+}
+
+.contact-us-today {
+  border-top: 1px solid #ddd;
+  padding: 20px;
+}
+
+.simplicity {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-left: 1px solid #ddd;
+  padding-left: 67px;
+  margin-top: 73px;
+  font-size: 1.1rem;
+}
+
+.reinforce {
+  border-left: 1px solid #ddd;
+  padding-left: 67px;
+  font-size: 1.1rem;
+}
+
+.home-bedsection {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-bedsection div {
+  width: 450px;
+  height: 450px;
+}
+
+.home-bedsection div img {
+  width: 100%;
+  height: 100%;
+}
+
+.home-bed-section-text {
+  position: absolute;
+  margin-top: -282px;
+  margin-left: 682px;
+  font-size: 23px;
+  font-family: "segoe";
+  line-height: 37px;
+}
+
+.home-funnel-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.big-funnel {
+  display: block;
+  margin: 0 auto;
+}
+
+.small-funnel {
+  display: flex;
+  flex-direction: column;
+  margin-right: 41px;
+}
+
+.small-funnel img {
+  width: 360px;
+  height: 190px;
+}
+
+.small-funnel h3 {
+  font-size: 1.5rem;
+  font-family: segoe;
+  padding-top: 84px;
+}
+
+/* end index page styles */
+
+/* styles for  top footer */
+
+.footer-social-icons {
+  box-shadow: 0px -15px 0px 0px #f5f5f3;
+  margin-top: 20px;
+  background: #ebebeb;
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-social-icons ul {
+  list-style: none;
+  margin-top: 14px;
+  margin-right: -149px;
+}
+
+.footer-social-icons ul li {
+  display: inline-block;
+}
+
+/* .footer-social-icons form {
+  text-align: center;
+} */
+
+.footer-social-icons p {
+  position: relative;
+  left: -70px;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+/* end styles for top footer */
+
+/* styles for connect page form */
+
+input[type="text"] {
+  padding-top: 9px;
+  padding-left: 4px;
+  padding-bottom: 9px;
+  padding-right: 259px;
+  border: 2px solid #719fac;
+}
+
+textarea {
+  width: 469px;
+  border: 2px solid #719fac;
+  padding: 4px;
+}
+
+button[type="submit"] {
+  display: block;
+  margin: auto;
+  padding: 10px 57px;
+  background-color: #719fac;
+  color: #fff;
+  border: none;
+  letter-spacing: 2px;
+}
+
+/* end styles for connect page form */
+
+/* styles for bottom footer */
+
+footer {
+  padding-top: 30px;
+}
+
+.footer-div {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-div p {
+  margin-top: 40px;
+  /* margin-bottom: 0px; */
+  font-size: 1.5rem;
+}
+
+.copyright {
+  font-size: 17px;
+}
+
+/* end styles for bottom footer */
+
+.connect-first-section h1 {
+  text-align: center;
+  margin-right: -765px;
+  padding: 10px;
+  letter-spacing: 1.8px;
+  font-family: reey;
+}
+
+.connect-banner {
+  position: relative;
+  width: 100%;
+  height: 679px;
+  background-image: url("../images/connect.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.connect-banner-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 54%;
+  height: 679px;
+  background-color: rgba(255, 255, 255);
+  opacity: 0.8;
+}
+
+.connect-form {
+  position: absolute;
+  right: 140px;
+  top: 109px;
+}
+
+.connect-banner p {
+  position: absolute;
+  right: 233px;
+  top: 9px;
+  font-family: raleway;
+  font-size: 25px;
+}
+
+.tree-banner {
+  position: relative;
+  width: 100%;
+  height: 217px;
+  background-image: url("../images/connect2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tree-banner h2 {
+  z-index: 1000;
+  color: #fff;
+  letter-spacing: 1.5px;
+  font-family: raleway;
+}
+
+/* end styles for connect page */
+
+/* styles for culture page */
+
+.cultureBanner {
+  position: relative;
+  height: 800px;
+  background: #000;
+  background-image: url("../images/culture.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  top: 145px;
+}
+
+.cultureBanner-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #061e26;
+  opacity: 0.2;
+}
+
+.cultureBanner h1 {
+  position: absolute;
+  color: #fff;
+  font-size: 25px;
+  top: 350px;
+  left: 485px;
+  font-size: 6rem;
+  letter-spacing: 2.5px;
+  font-family: ralewaybold;
+}
+
+.cultureBanner2 {
+  position: relative;
+  top: 0px;
+  border-top: 4px solid #fff;
+  height: 600px;
+  background-image: url("../images/culture\ background2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.cultureBanner2-overlay {
+  position: absolute;
+  top: 36px;
+  left: 34px;
+  width: 95%;
+  height: 89%;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 2px solid #fff;
+}
+
+.sliding-section {
+  position: relative;
+}
+
+.sliding-images {
+  width: 670px;
+  height: 438px;
+  margin: 20px auto;
+}
+
+.sliding-images img {
+  width: 100%;
+  height: 100%;
+}
+
+.culture-row-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 17px;
+  margin-left: -35px;
+}
+
+.culture-row-1 div {
+  width: 150px;
+  height: 150px;
+  margin: 18px;
+  margin-left: 18px;
+  margin-left: 56px;
+}
+
+.culture-row-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+  margin-left: -35px;
+}
+
+.culture-row-2 div {
+  width: 150px;
+  height: 150px;
+  margin: 18px;
+  margin-left: 18px;
+  margin-left: 56px;
+}
+
+.wood-div {
+  position: absolute;
+  top: -117px;
+  left: 67px;
+  width: 600px;
+  height: 350px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wood-div h2 {
+  font-family: roboto-regular;
+  font-size: 2rem;
+  color: #ff9600;
+  text-transform: lowercase;
+}
+
+.capital-f {
+  text-transform: uppercase;
+}
+
+.wood-div2 {
+  position: absolute;
+  top: -117px;
+  right: 66px;
+  width: 600px;
+  height: 350px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  display: flex;
+  flex-shrink: 1;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.wood-div2 h2 {
+  font-family: roboto-regular;
+  font-size: 2rem;
+  color: #ff9600;
+  text-transform: lowercase;
+}
+
+.capital-t {
+  text-transform: uppercase;
+}
+
+.our-processes {
+  position: relative;
+  top: -84px;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: 0 auto;
+  height: 366px;
+  z-index: 1;
+  /* text-align: center; */
+}
+
+.our-processes p {
+  text-align: center;
+}
+
+.our-processes ul {
+  list-style: none;
+  display: flex;
+  margin-top: 90px;
+  margin-right: 38px;
+  justify-content: space-around;
+}
+
+.our-processes ul li p {
+  color: #fff;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.our-processes h5 {
+  position: relative;
+  top: 30px;
+  left: 40px;
+  color: #fff;
+  font-family: monospace;
+  font-size: 1.5rem;
+}
+
+.culture-furniture {
+  display: flex;
+  justify-content: space-between;
+}
+
+.culture-statement {
+  align-self: center;
+  position: relative;
+  left: -84px;
+  top: -86px;
+}
+
+.culture-statement h2 {
+  font-family: roboto-regular;
+}
+
+.culture-statement p {
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  font-family: roboto-regular;
+}
+
+.culture-statement p {
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  font-family: sans-serif;
+}
+
+.culture-picture {
+  position: relative;
+  top: -98px;
+  left: -44px;
+  width: 600px;
+  height: 501px;
+  background-image: url("../images/designpicture1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.culture-picture h3 {
+  position: absolute;
+  top: 50%;
+  left: 91px;
+  letter-spacing: 3px;
+  word-spacing: 6px;
+  font-family: ralewaybold;
+  font-weight: bolder;
+  color: #fff;
+  font-size: 2rem;
+  /* z-index: 1; */
+}
+
+.culture-picture-overlay {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.1);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* z-index: -1; */
+}
+
+.clapping-hand-section {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 400px;
+  color: #fff;
+  position: relative;
+  top: -108px;
+  margin-bottom: -86px;
+}
+
+.clapping-hand-section h3 {
+  /* position: relative;
+  left: 263px;
+  font-family: segoe;
+  line-height: 38px;
+  font-weight: bold; */
+
+  font-family: segoe;
+  line-height: 38px;
+  font-weight: bold;
+  padding-top: 150px;
+  margin: 0 auto;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.clapping-hand-section img {
+  display: block;
+  margin: auto;
+  position: relative;
+  top: -85px;
+  left: 167px;
+}
+
+/* end styles of culture page  */
+
+/* styles of design page */
+
+.design-banner {
+  background-image: url("../images/dbackground.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 675px;
+  top: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 148px;
+}
+
+.design-banner h1 {
+  margin-left: 397px;
+  font-family: Helvetica;
+  color: #fff;
+}
+
+.design-banner hr {
+  width: 25%;
+  background: #fff;
+  margin-left: 3px;
+  padding: 3px;
+}
+
+.dining-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.dining-border1 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  position: relative;
+  left: -26px;
+}
+
+.dining-border2 {
+  border-left: 1px solid #ddd;
+  margin-top: 20px;
+  margin-bottom: -11px;
+  padding-left: 60px;
+  position: relative;
+  right: 47px;
+}
+
+.dining-border2 div {
+  height: 380px;
+  width: 600px;
+}
+
+.dining-border2 div img {
+  width: 100%;
+  height: 100%;
+}
+
+.kitchen-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.smooth-sailing-section {
+  background-color: #061e26;
+  color: #fff;
+  height: 400px;
+  padding: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.smooth-sailing-section p {
+  font-size: 20px;
+  word-spacing: 2px;
+  line-height: 34px;
+  font-family: segoe;
+}
+
+.smooth-sailing-section span {
+  display: inline-block;
+  font-size: 5rem;
+  padding-bottom: 45px;
+  font-family: roboto;
+}
+
+.design-bed-section {
+  display: flex;
+}
+
+.design-bed-section div {
+  width: 720px;
+  height: 471px;
+}
+
+.design-bed-section-first-div img {
+  width: 100%;
+  height: 100%;
+}
+
+.specialization-section {
+  background-color: #0d5167;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  font-family: roboto-regular;
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+
+/* end styles for design page */
+
+/* renovation styles  */
+
+.renovation-banner {
+  background-image: url("../images/renobackground.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 800px;
+  position: relative;
+  top: 91px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.renovation-banner h1 {
+  margin-top: -74px;
+  font-size: 5rem;
+  font-family: ralewaybold;
+  color: #061e26;
+  text-align: center;
+}
+
+.renovation-image-section {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+
+.tell-us-ur-needs {
+  position: relative;
+  left: -249px;
+  top: 349px;
+  align-self: center;
+  font-family: monospace;
+  word-spacing: 3px;
+}
+
+.tell-us-ur-needs h2 {
+  font-size: 28px;
+  font-family: segoe;
+}
+
+.tell-us-ur-needs h1 {
+  font-size: 2rem;
+  font-family: segoe;
+  font-weight: bold;
+}
+
+.renovation-image-div {
+  width: 678px;
+  height: 657px;
+  z-index: -1;
+}
+
+.renovation-image-div img {
+  width: 100%;
+  height: 100%;
+}
+
+.for-your-renovation-section {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: raleway;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.for-your-renovation-section h4 {
+  font-size: 24px;
+}
+
+.hammer-plier-section {
+  background-image: url("../images/Renovation3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 805px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  position: relative;
+}
+
+.possibilities-section {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: raleway;
+  color: #fff;
+  font-weight: 400;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+.possibilities {
+  font-size: 22px;
+  word-spacing: 1.5px;
+  letter-spacing: 1.5px;
+  line-height: 28px;
+}
+
+.hammer-plier-section h1 {
+  position: relative;
+  top: -130px;
+  right: -440px;
+  font-size: 8rem;
+}
+
+.hammer-plier-section h3.words {
+  position: relative;
+  right: 57px;
+  bottom: -8px;
+  font-family: raleway;
+  font-weight: bolder;
+  letter-spacing: 4px;
+  word-spacing: 1px;
+  font-size: 25px;
+  line-height: 36px;
+  top: 30px;
+}
+
+.renovation-last-section {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 160px;
+  background-color: #fff;
+  opacity: 0.7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: raleway;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  color: #061e26;
+  font-family: ralewaybold;
+  font-weight: 400;
+}
+
+.renovation-last-section h3 {
+  font-size: 19px;
+  word-spacing: 1.5px;
+  letter-spacing: 1.5px;
+  line-height: 32px;
+}
+
+.connect-first-section {
+  margin-top: 235px;
+}
+
+.on {
+  display: none;
+}
+
+/*  media queries */
+
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  .on {
+    display: block;
+  }
+  .off {
+    display: none;
+  }
+  .home-bedsection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 132px;
+  }
+  .home-bedsection div {
+    width: 100%;
+    height: 100%;
+  }
+  .home-bedsection div img {
+    width: 100%;
+    height: 100%;
+  }
+  .home-bed-section-text {
+    display: none;
+  }
+  .small-funnel img {
+    margin-top: -5px;
+  }
+  .small-funnel {
+    display: flex;
+    flex-direction: column;
+  }
+  .small-funnel h3 {
+    font-family: segoe;
+    padding-top: 21px;
+    text-align: center;
+    font-size: 14px;
+    padding: 40px;
+    font-weight: bold;
+  }
+  .big-funnel {
+    display: none;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .home-chair img {
+    margin: auto;
+    position: relative;
+    top: -109px;
+  }
+  .home-custom-idea h2 {
+    margin-top: -447px;
+    font-family: segoe;
+    color: #061e26;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .footer-social-icons ul,
+  .footer-social-icons p.contact {
+    display: none;
+  }
+  .footer-social-icons p {
+    left: -7px;
+  }
+  .footer-div {
+    justify-content: space-around;
+    width: 100%;
+  }
+  .footer-div p {
+    margin-top: 40px;
+    margin-bottom: 0px;
+    font-size: 16px;
+  }
+  .work-support-design-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* margin-top: 40px; */
+  }
+  .home-image-gallery {
+    background: #f6f6f6;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    height: 1233px;
+  }
+  .simplicity {
+    border-left: none;
+    padding-left: 0px;
+    margin-top: 0px;
+  }
+  .reinforce {
+    border-left: none;
+    padding-left: 0px;
+  }
+  .first-line {
+    width: 100%;
+    border: 0.5px solid #ddd;
+    margin-top: 20px;
+    margin-left: -1px;
+  }
+  .second-line {
+    margin-top: 25px;
+    width: 100%;
+    border: 0.5px solid #ddd;
+    margin-left: 0px;
+  }
+  .work-done-ul {
+    margin-top: 44px;
+  }
+  .what-we-support {
+    margin-top: 55px;
+  }
+  .simplicity {
+    border-left: none;
+    padding-left: 0px;
+    margin-top: 34px;
+  }
+  .our-designs {
+    margin-top: 29px;
+  }
+  .reinforce {
+    margin-top: 26px;
+  }
+  .work-support-design-row span {
+    font-family: ralewaybold;
+    font-size: 16px;
+  }
+  .reinforce p {
+    text-align: center;
+  }
+  .cultureBanner {
+    height: 695px;
+    margin-top: -107px;
+  }
+  .cultureBanner h1 {
+    top: 151px;
+    left: 60px;
+    font-size: 4rem;
+  }
+  .cultureBanner2 {
+    height: 409px;
+  }
+  .cultureBanner2-overlay {
+    display: none;
+  }
+  .wood-div2 {
+    display: none;
+  }
+  .wood-div {
+    display: none;
+  }
+  .sliding-section {
+    position: relative;
+  }
+  .sliding-images {
+    width: 100%;
+    height: 100%;
+    margin-top: 4px;
+  }
+  .sliding-images img {
+    width: 100%;
+    height: 100%;
+  }
+  .our-processes {
+    top: -16px;
+    height: 514px;
+  }
+  .our-processes p {
+    text-align: center;
+  }
+  .our-processes ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 48px;
+  }
+  .our-processes ul li img {
+    width: 40px;
+    height: 40px;
+  }
+  .our-processes ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .our-processes h5 {
+    left: 92px;
+  }
+  .culture-furniture {
+    display: none;
+  }
+  .clapping-hand-section {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 186px;
+    color: #fff;
+    position: relative;
+    top: -28px;
+    margin-bottom: -27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .clapping-hand-section h3 {
+    left: 57px;
+    font-size: 0.75rem;
+  }
+  .clapping-hand-section img {
+    top: 15px;
+    left: -137px;
+    width: 80px;
+    height: 80px;
+  }
+  .design-banner {
+    background-image: url("../images/dbackground.jpg");
+    margin-top: 114px;
+    height: 361px;
+  }
+  .design-banner h1 {
+    margin-left: 105px;
+    font-family: Helvetica;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .dining-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .kitchen-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .dining-border1 {
+    position: relative;
+    margin: 50px auto;
+    left: 0px;
+  }
+  .design-bed-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .design-bed-section div {
+    width: 300px;
+    height: 190px;
+    margin: 5px auto;
+  }
+  .design-bed-section-first-div img {
+    width: 100%;
+    height: 100%;
+  }
+  .mobile-p {
+    text-align: center;
+  }
+  .smooth-sailing-section span {
+    font-size: 1rem;
+  }
+  .smooth-sailing-section p {
+    font-family: monospace;
+    font-size: 12px;
+  }
+  .renovation-banner h1 {
+    font-size: 2rem;
+    margin-top: -350px;
+  }
+  .for-your-renovation-section h4 {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  .possibilities {
+    display: none;
+  }
+  .renovation-image-section h1 {
+    display: none;
+  }
+  .renovation-last-section h3 {
+    font-size: 16px;
+    text-align: center;
+  }
+  .hammer-plier-section {
+    background-image: url("../images/Renovation3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 805px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: relative;
+  }
+  .tree-banner {
+    height: 178px;
+  }
+  .tree-banner h2 {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bolder;
+  }
+  .connect-first-section {
+    margin-top: 170px;
+  }
+  .connect-first-section h1 {
+    text-align: center;
+    margin-right: 0px;
+    text-align: center;
+    font-size: 2rem;
+  }
+  .connect-banner p {
+    right: 0px;
+    top: 28px;
+    font-family: raleway;
+    font-size: 16px;
+    position: relative;
+    left: 18px;
+    font-weight: bolder;
+  }
+  .connect-form {
+    position: absolute;
+    right: 0px;
+    top: 111px;
+    left: 37px;
+  }
+  input[type="text"] {
+    padding-top: 5px;
+    padding-left: 6px;
+    padding-bottom: 2px;
+    padding-right: 68px;
+    border: 2px solid #719fac;
+  }
+  textarea {
+    width: 281px;
+    border: 2px solid #719fac;
+    padding: 4px;
+  }
+  button[type="submit"] {
+    margin-top: -13px;
+    margin-left: 56px;
+  }
+  .connect-first-section {
+    margin-top: 196px;
+  }
+  .hammer-plier-section {
+    background-image: url("../images/Renovation\ 3-small.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: relative;
+  }
+  .hammer-plier-section h1 {
+    position: relative;
+    top: -130px;
+    left: 0px;
+    font-weight: bolder;
+    font-size: 3rem;
+  }
+  .possibilities-section {
+    height: 94px;
+  }
+  .hammer-plier-section h3.words {
+    display: none;
+  }
+  .renovation-banner {
+    background-image: url("../images/renobackground-small.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    position: relative;
+    top: 91px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cultureBanner {
+    position: relative;
+    background: #000;
+    background-image: url("../images/culture-banner-small.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    top: 219px;
+  }
+  .smooth-sailing-section {
+    height: 218px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .mobile-p {
+    font-size: 1rem;
+  }
+  .nav-brand-img {
+    margin-top: -33px;
+  }
+}
